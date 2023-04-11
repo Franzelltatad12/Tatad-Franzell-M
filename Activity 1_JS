@@ -1,0 +1,15 @@
+const age = -10
+
+switch (true) {
+  case 18:
+    console.log("Legal na");
+    break;
+  case age >= 19 && age <= 25:
+    console.log("Hinog na");
+    break;
+  case age > 1 && age <= 17:
+    console.log("Atabs na");
+    break;
+  default:
+    console.log("Dehins pa edewup");
+}
